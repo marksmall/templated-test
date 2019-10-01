@@ -31,8 +31,6 @@ import { history } from './store';
 
 import styles from './app.module.css';
 
-import LineWidth from './annotations/line-width.component';
-
 const UserList = lazy(() => import('./accounts/admin/user-list.container'));
 const Admin = lazy(() => import('./accounts/admin/admin.container'));
 

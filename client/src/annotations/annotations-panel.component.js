@@ -302,7 +302,7 @@ const AnnotationsPanel = ({ map }) => {
           <span>Set Line Width</span>
         </ReactTooltip>
 
-        {lineWidthSelected && <LineWidthPicker setLineWidth={width => dispatch({ type: SET_LINE_WIDTH, width })} />}
+        {lineWidthSelected && <LineWidthPicker select={width => dispatch({ type: SET_LINE_WIDTH, width })} />}
       </fieldset>
     </div>
   );
